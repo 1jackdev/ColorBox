@@ -1,0 +1,12 @@
+.box-container {
+    align-items: flex-start;
+    padding: 2px;
+    display: inline-block;
+    margin-right: 5px;
+
+}
+
+.btn {
+    position: inherit;
+    right: 30%;
+}

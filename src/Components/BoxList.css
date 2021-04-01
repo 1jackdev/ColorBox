@@ -1,0 +1,13 @@
+.container {
+  width: 60%;
+  padding-top: 20px;
+  margin: auto;
+  display: inline-block;
+  
+}
+
+.box-list {
+  margin: 25px;
+  justify-content: space-between;
+}
+
