@@ -40,6 +40,7 @@ const NewBoxForm = ({ addBox }) => {
         name="width"
         placeholder="width"
         value={formData.width}
+        max={500}
         onChange={handleChange}
       />
       <label htmlFor="height">Height</label>
@@ -49,6 +50,7 @@ const NewBoxForm = ({ addBox }) => {
         name="height"
         placeholder="height"
         value={formData.height}
+        max={500}
         onChange={handleChange}
       />
       <button>Add Box</button>
